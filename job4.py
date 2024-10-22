@@ -10,9 +10,9 @@ def code(c,m):
             MessageCrypte+=' '
         else:
             asc= ord(acrypter[i])+cle
-            if asc >90:
+        if asc >90:
                 asc-=26
-    MessageCrypte += chr(asc)
+        MessageCrypte += chr(asc)
 
     print (MessageCrypte)
 code(2,"bonjour tout le monde")

@@ -1,4 +1,5 @@
 def draw_pyramid(height):
+  
   for i in range(height):
         print(" " * (height - i - 1), end="")
         print("/", end="")
